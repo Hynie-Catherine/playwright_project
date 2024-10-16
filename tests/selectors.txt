@@ -1,0 +1,11 @@
+css selectors: ===============================>
+1) id or #
+2) class or .
+3) data-test-id : added by testers customly
+4) [attribute='attribute-value'] : css selectors using attributes
+4) [attribute='attribute-value'][attribute='attribute-value'] ==>> css selectors uding combination of attributes
+=================
+xpaths
+=====================
+learn () in xpath and css
+
