@@ -37,20 +37,20 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { 
-        headless: false,
+        // headless: false,
         // screenshot: 'on',
         video: 'on',
         ...devices['Desktop Chrome'] },
     },
 
-    {
-      name: 'firefox',
-      use: { 
-        headless: false,
-        // screenshot: 'on',
-        // video: 'on',
-        ...devices['Desktop Firefox'] },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { 
+    //     // headless: false,
+    //     // screenshot: 'on',
+    //     // video: 'on',
+    //     ...devices['Desktop Firefox'] },
+    // },
 
     // {
     //   name: 'webkit',
@@ -62,12 +62,12 @@ export default defineConfig({
     // },
 
     /* Test against mobile viewports. */
-    {
-      name: 'Mobile Chrome',
-      use: { 
-        headless: false,
-        ...devices['Pixel 5'] },
-    },
+    // {
+    //   name: 'Mobile Chrome',
+    //   use: { 
+    //     headless: false,
+    //     ...devices['Pixel 5'] },
+    // },
     // {
     //   name: 'Mobile Safari',
     //   use: { ...devices['iPhone 12'] },
